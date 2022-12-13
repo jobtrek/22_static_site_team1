@@ -1,0 +1,66 @@
+/* navBar  */
+.cont-bar-nav img {
+    width: 69px;
+    height: 72px;
+}
+
+.ul-navBar {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #644996;
+    height: 86px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 87px;
+
+}
+
+li {
+    margin: auto;
+}
+
+li a {
+    color: white;
+    text-align: center;
+    text-decoration: none;
+
+
+}
+
+
+li a:hover {
+    margin-top: 5px;
+    text-decoration: underline #ede068 2px;
+}
+
+
+.groupe-navBar1 {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    text-align: center;
+    gap: 82px;
+
+}
+
+.groupe-navBar2 {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    text-align: center;
+    gap: 82px;
+}
+
+i {
+    width: 35px;
+    height: 35px;
+}
+
+li i:hover {
+    margin-top: 5px;
+    text-decoration: underline #ede068 2px;
+}
+
+
+/* navBar  */
