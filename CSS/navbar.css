@@ -9,11 +9,13 @@
 .ul-navBar {
     list-style-type: none;
     margin: 0;
+    padding: 0;
     overflow: hidden;
     background-color: #644996;
     height: 86px;
     display: flex;
     justify-content: space-between;
+    text-align: center;
 }
 
 li {
@@ -37,29 +39,24 @@ a:hover {
 
 .groupe-navBar1 {
     display: flex;
-    text-align: center;
-
     gap: 82px;
-
-    justify-content: center;
 }
 
 .groupe-navBar2 {
     display: flex;
-    align-self: flex-end;
-    text-align: center;
+    gap: 45px;
+    margin-right: 45px;
 }
 
 
-i {
-    width: 35px;
-    height: 35px;
+li i {
+    
     text-align: center;
 
 
 }
 
- i:hover {
+i:hover {
     margin-top: 5px;
     text-decoration: underline #ede068 2px;
 }
