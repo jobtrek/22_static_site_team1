@@ -1,4 +1,7 @@
 /* navBar  */
+*{
+    margin: 0;
+}
 .cont-bar-nav img {
     width: 69px;
     height: 72px;
