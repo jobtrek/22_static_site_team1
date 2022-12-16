@@ -1,0 +1,10 @@
+*{
+    margin: 0;
+}
+
+.sportbay-logo-principale {
+    display: flex;
+    margin: 0 auto;
+    margin-top: 81px;
+}
+
