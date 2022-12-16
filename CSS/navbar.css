@@ -1,9 +1,11 @@
 /* navBar  */
 @import url('https://fonts.googleapis.com/css2?family=Karla&display=swap');
-*{
+
+* {
     margin: 0;
     font-family: 'Karla', sans-serif;
 }
+
 .cont-bar-nav img {
     width: 69px;
     height: 72px;
@@ -66,7 +68,7 @@ i:hover {
     text-decoration: underline #ede068 2px;
 }
 
-.groupe-navBar0{
+.groupe-navBar0 {
     display: flex;
     gap: 45px;
     margin-right: 45px;
