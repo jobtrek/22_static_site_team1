@@ -1,0 +1,17 @@
+.cont-bestSellers-1 > button {
+  color: #644996;
+  background-color: white;
+  border: none;
+  text-decoration: underline #ede068 2px;
+  font-size: 40px;
+}
+.img-Best-Seller-1 {
+  width: 400px;
+  height: 400px;
+  padding: 56px;
+  padding-top: 30px;
+}
+.cont-bestSellers-1 {
+  display: grid;
+  justify-content: center;
+}
