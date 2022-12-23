@@ -1,0 +1,17 @@
+.container_main_article_images {
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+
+
+.container_main_article_images img {
+    width: 4.06%; /* définir la largeur des petites images en pourcentage de la largeur de l'écran */
+    margin-right: 14px; /* ajouter un espace entre les images */
+  }
+  
+  .container_main_article_images img:last-child {
+    width: 22.47%; /* définir la largeur de la grande image en pourcentage de la largeur de l'écran */
+  }
