@@ -7,14 +7,12 @@
 
 .cont-footer {
     background-color: #644996;
-    position: absolute;
     width: 100%;
     bottom: 0;
     padding: 0;
     text-align: center;
     justify-content: center;
     display: grid;
-
     height: 132px;
 }
 
