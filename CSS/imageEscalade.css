@@ -1,0 +1,23 @@
+.esca-image-promo {
+    width: 100% ;
+    height: 1000px ;
+    top: 2505px;
+}
+.esca-image-promo-big-line-text {
+    font-size: 100px;
+    line-height: 117px;
+}
+.esca-image-promo-mini-line-text {
+    font-size: 50px;
+    line-height: 60px;
+}
+.esca-image-promo-text {
+    text-align: center;
+    font-family: 'Karla', sans-serif;
+    z-index: 1;
+    color: white;
+    width: 593px;
+    height: 332px;
+    color: purple;
+    
+}
