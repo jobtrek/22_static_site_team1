@@ -1,0 +1,17 @@
+.container-all-stars {
+    position: absolute;
+    display: flex; 
+    flex-direction: row;
+    margin: 158px 0 0 1090px;
+  }
+  
+  .container-all-stars img {
+    margin: 0 5px 0 0;
+    width: 42px;
+  }
+  
+  .container-all-stars p {
+    font-family: 'Roboto', sans-serif;
+    color: #B6B6B6;
+    margin-top: 15px;
+  }
