@@ -1,0 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Karla&display=swap');
+
+* {
+    margin: 0;
+}
+
+.cont-second-image {
+    display: flex;
+    justify-content: center;
+}
+
+.escalade-image-promo {
+    margin-top: 115px;
+    width: 100%;
+    width: 1722px;
+    height: 816px;
+}
