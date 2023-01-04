@@ -42,3 +42,15 @@
     margin: 0;
     width: 491px;
 }
+
+
+@media screen and (max-width : 1110px) {
+    .cont-footer {
+        height: 208px;
+    }
+
+    .footer-Group1 br {
+        display: none;
+        flex-direction: row;
+    }
+}
