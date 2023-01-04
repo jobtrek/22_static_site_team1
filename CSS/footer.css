@@ -18,7 +18,7 @@
 
 
 
-.cont-footer>.footerGroup1 {
+.cont-footer>.footer-Group1 {
     display: flex;
     text-align: center;
     padding: 0;
@@ -26,7 +26,7 @@
     width: 491px;
 }
 
-.cont-footer>.footerGroup2 {
+.cont-footer>.footer-Group2 {
     display: flex;
     text-align: center;
     padding: 0;
@@ -35,7 +35,7 @@
 }
 
 
-.cont-footer>.footerGroup3 {
+.cont-footer>.footer-Group3 {
     display: flex;
     text-align: center;
     padding: 0;
