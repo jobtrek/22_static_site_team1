@@ -1,8 +1,15 @@
-.cont-bestSellers {
+.bestSellers {
   display: grid;
-  justify-content: center;
+  justify-items: center;
+  align-items: center;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(2, 1fr);
 }
-.cont-bestSellers> button {
+#title-bestSellers {
+  display: grid;
+  justify-items: center;
+}
+#title-bestSellers > button {
   color: #644996;
   background-color: white;
   border: none;
@@ -18,5 +25,25 @@
 .img-Best-Seller-2 {
   padding: 56px;
   padding-top: 30px;
-  margin-left: 80px;
+}
+@media screen and (min-width:2050px){
+  .bestSellers{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+  }
+}
+@media screen and (max-width:1500px){
+  .bestSellers{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+  }
+}
+@media screen and (max-width:1000px){
+  .bestSellers{
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: repeat(1, 1fr);
+  }
 }
