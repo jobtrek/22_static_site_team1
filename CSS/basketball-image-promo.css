@@ -1,9 +1,4 @@
 @import url('https://fonts.googleapis.com/css2?family=Karla&display=swap');
-
-*{
-    margin: 0;
-}
-
 .basketball-image-promo {
     margin-top: 105px;
     width: 100%;
@@ -12,8 +7,6 @@
 .baskeball-image-promo-big-line-text {
     font-size: 100px;
     line-height: 117px;
-
-
 }
 
 .baskeball-image-promo-mini-line-text {

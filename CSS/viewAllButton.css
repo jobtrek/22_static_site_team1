@@ -9,7 +9,26 @@
 
 }
 
+.btn-view-all-bottom>input {
+    display: flex;
+    justify-items: center;
+    width: 165px;
+    height: 51px;
+    border: 4px solid #F9E168;
+    font-size: 40px;
+    color: #644996;
+
+}
+
 .btn-view-all {
     display: flex;
     justify-content: center;
+}
+
+.btn-view-all-bottom {
+    display: flex;
+    justify-content: center;
+    margin-top: 85px;
+
+    margin-bottom: 91px;
 }

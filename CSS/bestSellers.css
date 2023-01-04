@@ -1,4 +1,8 @@
-.cont-bestSellers-1 > button {
+.cont-bestSellers {
+  display: grid;
+  justify-content: center;
+}
+.cont-bestSellers> button {
   color: #644996;
   background-color: white;
   border: none;
@@ -11,7 +15,8 @@
   padding: 56px;
   padding-top: 30px;
 }
-.cont-bestSellers-1 {
-  display: grid;
-  justify-content: center;
+.img-Best-Seller-2 {
+  padding: 56px;
+  padding-top: 30px;
+  margin-left: 80px;
 }
