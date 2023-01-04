@@ -2,7 +2,8 @@
     position: absolute;
     display: flex; 
     flex-direction: row;
-    margin: 158px 0 0 1090px;
+    margin: 230px 0 0 46.87500000000001%;
+
   }
   
   .container-all-stars img {
@@ -13,5 +14,4 @@
   .container-all-stars p {
     font-family: 'Roboto', sans-serif;
     color: #B6B6B6;
-    margin-top: 15px;
   }
