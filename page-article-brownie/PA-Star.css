@@ -1,9 +1,7 @@
 .container-all-stars {
     position: absolute;
-    display: flex; 
-    flex-direction: row;
-    margin: 230px 0 0 46.87500000000001%;
-
+    margin-top: 16.354166666666668%;
+    margin-left: 57.87500000000001%;
   }
   
   .container-all-stars img {
@@ -15,3 +13,16 @@
     font-family: 'Roboto', sans-serif;
     color: #B6B6B6;
   }
+  @media screen and (max-width: 414px) {
+    .container-all-stars {
+      display: flex;
+      margin: 466px 0 0 20px;
+    }
+    
+    .container-all-stars p {
+      font-family: 'Roboto', sans-serif;
+      color: #B6B6B6;
+
+    }
+  }
+
