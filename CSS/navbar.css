@@ -51,7 +51,7 @@ li a {
     color: white;
     text-align: center;
     text-decoration: none;
-
+    font-size: 22px;
 
 }
 
@@ -103,7 +103,7 @@ i:hover {
     text-align: center;
 }
 
-@media screen and (max-width : 414px) {
+@media screen and (max-width : 1110px) {
     .ul-navBar1 {
         display: none;
     }
