@@ -103,7 +103,7 @@ i:hover {
     text-align: center;
 }
 
-@media screen and (max-width : 414px) {
+@media screen and (max-width : 1110px) {
     .ul-navBar1 {
         display: none;
     }
