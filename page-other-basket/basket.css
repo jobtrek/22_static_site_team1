@@ -1,0 +1,47 @@
+.titleh2 {
+    text-align: center;
+    margin-bottom: 92px;
+}
+
+.first-Part {
+    display: flex;
+    justify-content: center;
+}
+
+.magnesie-grp1 {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    margin-top: 55px;
+}
+
+.image-magnesie {
+    box-sizing: border-box;
+
+    width: 122px;
+    height: 211px;
+    left: 126px;
+    top: 411px;
+
+    background: url(Mockup_magnesie_liquide.jpg);
+    border: 1px solid #644996;
+}
+
+.trash-like {
+    display: grid;
+}
+
+.sup-like {
+    display: flex;
+    font-size: 10px;
+    justify-content: space-between;
+}
+
+.quantity-price {
+    display: grid;
+    justify-items: right;
+}
+
+.quantity-price input {
+    width: 106px;
+    height: 40px;
+}
