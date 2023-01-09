@@ -1,3 +1,24 @@
+body {
+    background-color: #DDDDDD;
+}
+
+h2 {
+    font-size: 35px;
+}
+
+h3 {
+    font-size: 25px;
+    width: 300px;
+}
+
+
+.articles-cost {
+    width: 1139px;
+    height: 858px;
+    border: 1px solid #644996;
+
+}
+
 .titleh2 {
     text-align: center;
     margin-bottom: 92px;
@@ -44,4 +65,20 @@
 .quantity-price input {
     width: 106px;
     height: 40px;
+}
+
+.input-Arcticle {
+    border: 1px solid #F9E168;
+    text-align: center;
+    font-size: 27px;
+}
+
+.price-article {
+    font-size: 20px;
+}
+
+
+.second-Part {
+    display: flex;
+    justify-content: center;
 }
