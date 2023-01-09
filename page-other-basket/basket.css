@@ -113,10 +113,8 @@ img {
     margin-bottom: 61px;
 }
 
-.four-Part {
-    display: grid;
-    grid-template-rows: repeat(3, 0fr);
-    text-align: center;
+.four-part {
+
     background-color: #FFFFFF;
     border: 1px solid #644996;
     width: 1139px;
@@ -124,6 +122,21 @@ img {
     margin-top: 30px;
 }
 
+.five-images {
+    display: flex;
+    flex-direction: row;
+}
+
+.four-part img {
+    width: 150px;
+    height: 50px;
+}
+
+.four-part h2 {
+    margin-bottom: 47px;
+    margin-top: 33px;
+
+}
 
 /* .duration-delivery {
     display: flex;
