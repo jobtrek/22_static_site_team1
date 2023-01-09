@@ -16,12 +16,22 @@ h3 {
     width: 1139px;
     height: 858px;
     border: 1px solid #644996;
+    background-color: #FFFFFF;
+    margin-top: 30px;
+}
+
+.articles-cost h2 {
+    margin-top: 88px;
+
+}
+
+.articles-cost .titleh2 {
+    margin-bottom: 92px;
 
 }
 
 .titleh2 {
     text-align: center;
-    margin-bottom: 92px;
 }
 
 .first-Part {
@@ -45,6 +55,10 @@ h3 {
 
     background: url(Mockup_magnesie_liquide.jpg);
     border: 1px solid #644996;
+}
+
+img {
+    margin-bottom: 55px;
 }
 
 .trash-like {
@@ -82,3 +96,36 @@ h3 {
     display: flex;
     justify-content: center;
 }
+
+.thirth-Part {
+    display: grid;
+    grid-template-rows: repeat(3, 0fr);
+    text-align: center;
+    background-color: #FFFFFF;
+    border: 1px solid #644996;
+    width: 1139px;
+    height: 218px;
+    margin-top: 30px;
+}
+
+.thirth-Part h2 {
+    margin-top: 33px;
+    margin-bottom: 61px;
+}
+
+.four-Part {
+    display: grid;
+    grid-template-rows: repeat(3, 0fr);
+    text-align: center;
+    background-color: #FFFFFF;
+    border: 1px solid #644996;
+    width: 1139px;
+    height: 218px;
+    margin-top: 30px;
+}
+
+
+/* .duration-delivery {
+    display: flex;
+    flex-direction: column;
+} */
