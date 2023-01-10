@@ -153,7 +153,6 @@ img {
 
 
 
-
 .cont-right-grid {
     width: 503px;
     height: 425PX;
@@ -216,6 +215,11 @@ img {
     margin-left: 23px;
     margin-right: 23px;
 
+}
+
+.grid-four-images {
+    display: flex;
+    flex-direction: row;
 }
 
 /* .duration-delivery {
