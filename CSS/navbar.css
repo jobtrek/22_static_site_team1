@@ -122,8 +122,8 @@ i:hover {
 */
 nav {
     background-color: #644996;
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    display: flex;
+    justify-content: space-between;
 }
 
 nav ul {
