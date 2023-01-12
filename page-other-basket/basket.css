@@ -81,6 +81,10 @@ img {
     justify-content: space-between;
 }
 
+.sup-like p {
+    font-size: 10px;
+}
+
 .quantity-price {
     display: grid;
     justify-items: right;
@@ -244,15 +248,33 @@ img {
     justify-content: center;
 }
 
+.item1-grid p {
+    color: #DDDDDD;
+}
+
 .grid-four-images {
     display: grid;
-    grid-template-columns: repeat(4, 1fr);
+    grid-template-columns: repeat(6, 1fr);
     justify-items: center;
 }
 
 .grid-four-images img {
     width: 105px;
     height: 160px;
+}
+
+.grid-four-images i {
+    display: flex;
+    align-items: center;
+
+}
+
+.fa-chevron-left {
+    font-size: 40px;
+}
+
+.fa-chevron-right {
+    font-size: 40px;
 }
 
 .checked {
