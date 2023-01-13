@@ -1,4 +1,5 @@
-*/ html,
+* {
+/ html,
 body,
 div,
 span,
@@ -69,12 +70,12 @@ figcaption,
 footer,
 header,
 hgroup,
-menu, font-size: 30px;
-font-weight: 900;
-line-height: 35px;
-letter-spacing: 0em;
-text-align: center;
-
+menu, font-size: 30 px;
+  font-weight: 900;
+  line-height: 35px;
+  letter-spacing: 0em;
+  text-align: center;
+}
 nav,
 output,
 ruby,

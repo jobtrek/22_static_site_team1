@@ -5,11 +5,11 @@
   grid-template-columns: repeat(3, 1fr);
   grid-template-rows: repeat(2, 1fr);
 }
-#title-bestSellers {
+.title-bestSellers {
   display: grid;
   justify-items: center;
 }
-#title-bestSellers > button {
+.title-bestSellers > button {
   color: #644996;
   background-color: white;
   border: none;
