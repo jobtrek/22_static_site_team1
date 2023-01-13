@@ -1,3 +1,4 @@
+<<<<<<< Updated upstream
 .bestSellers {
   display: grid;
   justify-items: center;
@@ -10,6 +11,9 @@
   justify-items: center;
 }
 .title-bestSellers > button {
+=======
+.cont-bestSellers-1 > button {
+>>>>>>> Stashed changes
   color: #644996;
   background-color: white;
   border: none;
@@ -22,6 +26,7 @@
   padding: 56px;
   padding-top: 30px;
 }
+<<<<<<< Updated upstream
 .img-Best-Seller-2 {
   padding: 56px;
   padding-top: 30px;
@@ -62,3 +67,9 @@
     margin-left: 10px;
   }
 }
+=======
+.cont-bestSellers-1 {
+  display: grid;
+  justify-content: center;
+}
+>>>>>>> Stashed changes
