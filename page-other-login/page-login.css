@@ -1,0 +1,287 @@
+.container-bar {
+    background-color: #644996;
+    max-width: 100%;
+    height: 86px;
+}
+
+.container-bar-width{
+    max-width: 97px;
+    height: 86px;
+}
+
+.container-bar-width img {
+    width: 100%;
+    height: 90%;
+    margin-left: 11px;
+}
+
+.container-logo-main-sportbay {
+    margin-top: 10px;
+    display: flex;
+    margin: 0 auto;
+    max-width: 447px;
+    max-height: 134px;
+}
+
+.container-logo-main-sportbay img {
+
+    width: 100%;
+}
+
+/*INPUT CONNEXION*/
+
+.container-all-input {
+    margin: 0 auto;
+    max-width: 669px;
+}
+
+.container-email, .container-password {
+    max-width: 669px;
+    height: 114px;
+}
+
+.container-email p, .container-password p {
+    font-size: 22px;
+}
+
+.container-email input, .container-password input {
+    width: 99%;
+    height: 79px;
+    border-radius: 13px;
+    border: 1px solid black;
+}
+
+.container-login-main-sportbay {
+    max-width: 669px;
+}
+
+.container-login-main-sportbay {
+    margin-top: 15px;
+    max-width: 100%;
+    height: 46px;
+    background-color: #644996;
+    border-radius: 13px;
+
+}
+
+.container-login-main-sportbay p {
+    cursor: pointer;
+    font-size: 22px;
+    color: white;
+    line-height: 46px;
+    text-align: center;
+}
+
+.container-password-forgotten {
+    margin-top: 15px;
+    cursor: pointer;
+}
+
+.container-password-forgotten p {
+    font-size: 22px;
+    color: #B6B6B6;
+    text-decoration-line: underline;
+}
+
+.container-connexion-google-facebook {
+
+    margin-top: 16px;
+}
+
+.container-google-facebook {
+    display: flex;
+}
+
+.container-connexion-google-facebook p:nth-child(1) {
+    font-size: 22px;
+}
+
+.container-google, .container-facebook {
+    width: 320px;
+    height: 79px;
+}
+
+/* FACEBOOK */
+
+.container-facebook {
+    margin-left: 21px;
+    cursor: pointer;
+
+}
+
+.container-in-container-facebook {
+    transition: 0.2s;
+
+    display: flex;
+    border-radius: 13px;
+    height: 100%;
+    width: 100%;
+    float: right;
+    border: 1px solid black;
+
+}
+
+.container-image-facebook  {
+    display: block;
+    margin-top: 15px;
+    max-width: 49px;
+    max-height: 49px;
+    margin-left: 91px;
+}
+
+.container-image-facebook img {
+    width: 100%;
+}
+
+.container-text-facebook {
+    margin-left: 16px;
+    margin-top: 25px;
+}
+
+.container-facebook {
+    margin-left: 21px;
+}
+
+/* GOOGLE */
+
+.container-in-container-google {
+    display: flex;
+    border-radius: 13px;
+    height: 100%;
+    width: 100%;
+    float: right;
+    border: 1px solid black;
+
+}
+
+.container-image-google  {
+    display: block;
+    margin-top: 15px;
+    max-width: 49px;
+    max-height: 49px;
+    margin-left: 91px;
+}
+
+.container-image-google img {
+    width: 100%;
+}
+
+.container-text-google {
+    margin-left: 16px;
+    margin-top: 25px;
+}
+
+.container-in-container-google{
+    transition: 0.2s;
+
+    border-radius: 13px;
+
+    height: 100%;
+    width: 100%;
+    float: left;
+    border: 1px solid black;
+
+}
+
+.container-google {
+    cursor: pointer;
+}
+
+.container-in-container-facebook:hover, .container-in-container-google:hover {
+    background-color: gray;
+    color: white;
+}
+
+.container-div-grey-bar-connection {
+    margin-top: 34px;
+    width: 100%;
+    height: 1px;
+    background-color: #B6B6B6;
+}
+
+/* new here register ... */
+
+.container-register-logo-privacy-conditions {
+    margin: 0 auto;
+    max-width: 669px;
+}
+
+.container-new-here p {
+    margin-top: 29px;
+    width: 100%;
+    font-size: 22px;
+    text-align: center;
+}
+
+.container-register {
+    cursor: pointer;
+    margin-top: 29px;
+    width: 100%;
+    height: 69px ;
+    background-color: white;
+    border:1px solid #644996;
+    border-radius: 13px;
+    transition: 0.2s;
+
+}
+
+.container-register p {
+    line-height: 69px;
+    text-align: center;
+    font-size: 22px;
+    color: #644996;
+    transition: 0.2s;
+}
+
+.container-register:hover {
+
+    background-color: #644996;
+    border:1px solid 644996 ;
+
+}
+
+.container-register:hover p {
+
+    color: white;
+}
+
+.container-privacy-policy--terms-and-conditions {
+margin-top: 29px;
+}
+
+.container-privacy-policy--terms-and-conditions p {
+    text-align: center;
+    font-size: 22px;
+    color: #B6B6B6;
+
+}
+
+.container-last-logo-griffe {
+    max-width: 86.02px;
+    display: flex;
+    margin: 0 auto;
+    margin-top: 21px;
+    margin-bottom: 20px;
+}
+
+.container-last-logo-griffe img{
+    width: 86.02px;
+}
+
+@media screen and (max-width: 484px) {
+    .container-image-google  {
+        display: block;
+        margin-top: 15px;
+        max-width: 49px;
+        max-height: 49px;
+        margin-left: 10px;
+    }
+
+    .container-image-facebook  {
+        display: block;
+        margin-top: 15px;
+        max-width: 49px;
+        max-height: 49px;
+        margin-left: 10px;
+    }
+}
