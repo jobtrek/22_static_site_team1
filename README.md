@@ -1,9 +1,28 @@
 # Static site - team 1
 
-Static website for SportBay 
-First use of responsive technology  
+In progress website project to learn how to make a static website for Jobtrek's apprentices
 
-credits gitHub  
+## SportBay
+
+Static website for SportBay.  
+SportBay is a sport e-commerce website,     
+we sell nutrition products and sports gear for fitness and climbing
+
+## Technologies
+
+HTML/CSS    
+Responsive
+
+## Contributing
+
+### Credits
+
+* GitHub
+
 maudelinDS  
 benjamin-breuil    
-b-beckman    
+b-beckman
+
+* Others
+
+logo and visuals: https://ch.linkedin.com/in/fernandezbryan
