@@ -45,6 +45,11 @@
         text-decoration: underline #ede068 2px;
         font-size: 50px;
     }
+
+    .img-Best-Seller-1 {
+        display: grid;
+        grid-template-rows: repeat(2, 1fr);
+    }
 }
 
 @media screen and (max-width: 1500px) {
