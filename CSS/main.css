@@ -134,18 +134,25 @@ table {
   border-collapse: collapse;
   border-spacing: 0;
 }
-body{ 
-  min-height: 100vh; margin:0; 
+
+body {
+  min-height: 100vh;
+  margin: 0;
 }
-header{ 
-  min-height:50px;
+
+header {
+  min-height: 50px;
 }
+
 footer {
-  min-height:50px;
+  min-height: 50px;
 }
-body{ 
-  display:flex; flex-direction:column; 
+
+body {
+  display: flex;
+  flex-direction: column;
 }
-article{ 
-  flex:1; 
+
+article {
+  flex: 1;
 }
