@@ -15,17 +15,28 @@
     display: grid;
     height: 132px;
 }
+
+.cont-footer li {
+    margin-bottom: 20px;
+}
+
 .cont-footer>.footer-Group1 {
     display: flex;
     text-align: center;
     padding: 0;
     margin: 0;
-    width: 491px;
+    gap: 51px;
+}
+
+.footer-Group1 li {
+    margin-top: 20px;
 }
 
 .cont-footer>.footer-Group2 {
     display: flex;
     text-align: center;
+    justify-content: center;
+
     padding: 0;
     margin: 0;
     width: 491px;
@@ -38,6 +49,8 @@
     padding: 0;
     margin: 0;
     width: 491px;
+    justify-content: center;
+
 }
 
 

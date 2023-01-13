@@ -1,4 +1,3 @@
-/* navBar  */
 @import url('https://fonts.googleapis.com/css2?family=Karla&display=swap');
 
 * {
@@ -6,6 +5,7 @@
     font-family: 'Karla', sans-serif;
 }
 
+/*
 .logo--navBar {
     width: 69px;
     height: 72px;
@@ -117,5 +117,88 @@ i:hover {
 
     .logo--navBar-phone {
         margin-top: 10px;
+    }
+}
+*/
+nav {
+    background-color: #644996;
+    display: flex;
+    justify-content: space-between;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    overflow: hidden;
+    height: 86px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+nav li {
+    float: left;
+}
+
+nav a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 22px;
+}
+
+nav a:hover {
+    text-decoration: underline #ede068 2px;
+
+}
+
+.logo--navBar {
+    width: 69px;
+    height: 72px;
+}
+
+
+.navbar-grp1 {
+    gap: 85px;
+}
+
+.navbar-grp2 {
+    display: flex;
+    justify-content: right;
+}
+
+.nav-phone {
+    display: none;
+    text-align: center;
+    justify-content: center;
+
+}
+
+i:hover {
+    margin-top: 5px;
+    text-decoration: underline #ede068 2px;
+}
+
+@media screen and (max-width : 1110px) {
+    .nav-desk {
+        display: none;
+    }
+
+    .nav-phone {
+        display: block;
+        text-align: center;
+        justify-content: center;
+
+    }
+
+    .logo--navBar-phone {
+        width: 90px;
+        height: 49.33px;
+        left: 162px;
+        top: 10px;
+
+        border-radius: 17px;
     }
 }
