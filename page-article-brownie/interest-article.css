@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Karla&display=swap');
+
+.container-interest {
+    margin-top: 44px;
+}
+
+.grey-bar {
+    display: flex;
+    margin: 0 auto;
+    max-width: 1822px;
+    height: 1px;
+    background-color: #9D9D9D;
+    margin-bottom: 61px;
+}
+
+.container-interest p {
+    font-family: 'Karla', sans-serif;
+}    
+
+.text-article-may-interest {
+    text-align: center;
+    font-size: 27px;
+    margin-bottom: 26px;
+}
+
+.container-articles-image {
+    max-width: 192px;
+    height: 192px;
+}
+
+.container-articles-image img {
+    width: 100%;
+}
+
+.article-bottom-div p {
+    font-size: 18px;
+}
+
+.container-stars-bottom-article img {
+    width: 21px;
+}
+
+.price-interest {
+    color: #838383;
+}
+
+.container-all-articles {
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    gap: 38px;
+}
+
