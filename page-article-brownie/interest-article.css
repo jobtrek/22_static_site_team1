@@ -51,3 +51,23 @@
     gap: 38px;
 }
 
+@media screen and (max-width: 414px) {
+
+    .article-bottom {
+        margin-top: 666px;
+    
+    }
+    .container-articles-2,.container-articles-3{
+        display: none;
+    }
+
+    .container-articles-1,.container-articles-4 {
+        margin: auto;
+        width: 129px;
+    }
+
+    .article-bottom-div {
+        margin-top: -50px;
+    } 
+
+}
