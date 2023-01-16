@@ -5,8 +5,10 @@
     font-family: 'Karla', sans-serif;
 }
 
+
 footer li {
     list-style: none;
+
 }
 
 .cont-footer {
@@ -55,9 +57,15 @@ footer li {
 }
 
 
-@media screen and (max-width : 414px) {
+@media screen and (max-width : 530px) {
     .cont-footer {
         height: 208px;
+        width: 100%;
+    }
+
+    .cont-footer>li {
+
+        font-size: 12px;
     }
 
     .footer-Group1 br {
