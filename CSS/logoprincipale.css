@@ -1,10 +1,20 @@
-*{
+* {
     margin: 0;
 }
 
-.sportbay-logo-principale {
-    display: flex;
-    margin: 0 auto;
-    margin-top: 81px;
+.img-logo {
+    width: 874px;
+    height: 173px;
+    background-image: url(../images/sportbay-logo-principale.jpg);
+    background-repeat: no-repeat;
+
+
+
 }
 
+.cont-logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}

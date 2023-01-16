@@ -4,26 +4,3 @@
     margin-top: 105px;
     width: 100%;
 }
-
-.baskeball-image-promo-big-line-text {
-    font-size: 100px;
-    line-height: 117px;
-}
-
-.baskeball-image-promo-mini-line-text {
-    font-size: 50px;
-    line-height: 60px;
-}
-
-.baskeball-image-promo-text {
-    text-align: center;
-    font-family: 'Karla', sans-serif;
-    z-index: 1;
-    position: absolute;
-    left: 66%;
-    top: 46%;
-    color: white;
-    width: 70%;
-    width: 593px;
-    height: 332px;
-}
