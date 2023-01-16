@@ -5,6 +5,10 @@
     font-family: 'Karla', sans-serif;
 }
 
+footer li {
+    list-style: none;
+}
+
 .cont-footer {
     background-color: #644996;
     width: 100%;
